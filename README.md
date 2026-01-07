@@ -14,6 +14,7 @@ API Endpoint: https://dummyjson.com/products
 Documentation: https://dummyjson.com/docs/products
 Method: GET to fetch data.
 
+
 4. Technical Requirements
 Part A: HTML Structure (The Skeleton)
 Semantic Tags: You must use <header>, <nav>, <main>, <section>, and <footer>.
