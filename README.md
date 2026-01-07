@@ -13,16 +13,13 @@ You will use the DummyJSON API to fetch initial data.
 API Endpoint: https://dummyjson.com/products
 Documentation: https://dummyjson.com/docs/products
 Method: GET to fetch data.
-
-
 4. Technical Requirements
 Part A: HTML Structure (The Skeleton)
 Semantic Tags: You must use <header>, <nav>, <main>, <section>, and <footer>.
 The Table: Display products in a <table> with columns for: Image, Name, Price, Category, Stock, Actions (Delete button).
 The Form: Create a form with validation attributes (required, min, type="number") to add new products.
 Part B: CSS Styling (The Look)
-Layouts:
-Use Flexbox for the Navigation bar and Form alignment.
+Layouts:Use Flexbox for the Navigation bar and Form alignment.
 Use CSS Grid for the main dashboard layout (Sidebar vs. Main Content) or Product Cards.
 Responsiveness: Use @media queries. The layout must switch from a Sidebar view (Desktop) to a stacked column view (Mobile) on screens smaller than 768px.
 Visuals: Use CSS Variables (:root) for theme colors. Implement transition effects on buttons (hover states).
@@ -35,14 +32,12 @@ Part D: Advanced & "Bonus" Features
 Storage: Implement localStorage. When a user adds or deletes a product, save the updated array to the browser. On page reload, check localStorage first before fetching from the API.
 Event Delegation: Attach a single event listener to the Table container to handle "Delete" button clicks (utilizing Event Bubbling).
 Closures: Encapsulate your main logic (or a specific utility function) inside a closure or module pattern to avoid polluting the global scope.
-
 5. Implementation Guide (Step-by-Step)
 If you are stuck, follow this logic flow to complete the assignment.
 Step 1: Setup & HTML
 Create your index.html. Layout your "Stats Panel" (top), "Input Form" (left or top), and "Product Table" (center).
 Step 2: Fetching Data
 Write an asynchronous function
-
 Step 3: Rendering (DOM)
 Create a function renderTable(data) that clears the current table body (innerHTML = '') and loops through the data.
 Tip: Use object destructuring inside your loop for cleaner code.
